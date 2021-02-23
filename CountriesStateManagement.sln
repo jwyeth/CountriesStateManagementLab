@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountriesStateManagement", "CountriesStateManagement\CountriesStateManagement.csproj", "{A0174BD8-FBDB-41A3-9843-C15BA52218BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0174BD8-FBDB-41A3-9843-C15BA52218BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0174BD8-FBDB-41A3-9843-C15BA52218BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0174BD8-FBDB-41A3-9843-C15BA52218BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0174BD8-FBDB-41A3-9843-C15BA52218BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26A59C5E-7293-4CDD-BB4B-ED086E356D0B}
+	EndGlobalSection
+EndGlobal

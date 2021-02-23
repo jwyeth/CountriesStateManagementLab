@@ -1,0 +1,11 @@
+﻿@model List<Country>
+
+<form asp-action="Index" asp-controller="Home" method="post">
+    <p>Please Select a Country: </p>
+    @foreach (Country c in Model)
+    {
+    <label>Name: @c.Name</label>
+    <input type="radio" name="countryName" value="@c.Name"/>
+    }
+    <input type="submit" value="Submit"/>
+</form>

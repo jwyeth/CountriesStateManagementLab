@@ -1,0 +1,20 @@
+﻿@model Country
+
+@if (Model == null)
+{
+    <h2>No Country was selected, please return to index to select one</h2>
+}
+else
+{
+    <h2>Name: @Model.Name</h2>
+    <h2>Official languages: </h2>
+    @foreach(string lang in Model.OfficialLanguage)
+    {
+        <p>@lang</p>
+    }
+    <h2>Greeting: @Model.Greeting</h2>
+    @foreach(string color in Model.Colors)
+    {
+        <p>@color</p>
+    }
+}
